@@ -27,7 +27,7 @@ public class Issue117 {
         final String url = "http://localhost:3000";
         final HttpHeaders headers = extractHeaders(request);
         return proxy
-                .headers(headers)
+                //.headers(headers)
                 .uri(url)
                 .get();
     }
